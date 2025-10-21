@@ -1,0 +1,208 @@
+Script started on 2025-10-15 17:35:29+07:00 [TERM="xterm-256color" TTY="/dev/pts/103" COLUMNS="120" LINES="30"]
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh-keygen
+[?2004lGenerating public/private rsa key pair.
+Enter file in which to save the key (/home/eltex-pg2-v16/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/eltex-pg2-v16/.ssh/id_rsa
+Your public key has been saved in /home/eltex-pg2-v16/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:yCEYpIqbvcJE5i9+pPOXlj2aitFOPcyxmxTk63Swk9k eltex-pg2-v16@eltex-2025-autumn
+The key's randomart image is:
++---[RSA 3072]----+
+| .o              |
+| . o             |
+|. . ...          |
+|oo  oo o         |
+|*    =o S        |
+| *..+ @          |
+|=.=o #+E         |
+|.==++=Bo         |
+|.+*++*. .        |
++----[SHA256]-----+
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh-copy-id
+[?2004lUsage: /usr/bin/ssh-copy-id [-h|-?|-f|-n|-s] [-i [identity_file]] [-p port] [-F alternative ssh_config file] [[-o <ssh -o options>] ...] [user@]hostname
+	-f: force mode -- copy keys without trying to check if they are already installed
+	-n: dry run    -- no keys are actually copied
+	-s: use sftp   -- use sftp instead of executing remote-commands. Can be useful if the remote only allows sftp
+	-h|-?: print this help
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh-copy-id ГЫУК[K[K[K[KUSER@root
+[?2004l/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/eltex-pg2-v16/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: ssh: Could not resolve hostname root: Name or service not known
+
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh-copy-id USER@root[1P@root[1P@root[1P@root[1P@roota@rootn@rootn@roota@rootu@root
+[?2004l/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/eltex-pg2-v16/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: ssh: Could not resolve hostname root: Name or service not known
+
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh-copy-id annau@root[1P@root[1P@root[1P@root[1P@root[1P@roote@rootl@roott@root[1P@root[1P@root[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh-copy-id USER@root[K[1Pkeygen root@172.16.9.216creen -r 85552.pts-181.eltex-2025-summer top[K[K top85552.pts-181.eltex-2025-summer [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psh root@172.16.9.216[11P-keygencopy-id USER@root[Ktouch practice2_${eltex-pg2-v16}_part1.log
+[?2004l[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ touch practice2_${eltex-pg2-v16}_part1.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh-copy-id USER@root[K[1Pkeygen root@172.16.9.216creen -r 85552.pts-181.eltex-2025-summer top[K85552.pts-181.eltex-2025-summer [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psh root@172.16.9.216creen -r 85552.pts-181.eltex-2025-summer top[K[Kыскуут -кscreen top-ls[Kecho "export LANG=ru_RU.UTF8" >>~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman -Lru man[K[2Pscreen -lsr 93541.new_sessionls[Kman -Lru manecho "export LANG=ru_RU.UTF8" >>~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscreen[K -lstop[1Pыскуут -кscreen -r top85552.pts-181.eltex-2025-summer [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psh root@172.16.9.216[11P-keygencopy-id USER@root[Kssh-copy-id USER@root[K[1Pkeygen root@172.16.9.216creen -r 85552.pts-181.eltex-2025-summer top[K85552.pts-181.eltex-2025-summer [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psh root@172.16.9.216[11P-keygen root@172.16.9.216[11P-keygencopy-id USER@root[Ktouch practice2_${eltex-pg2-v16}_part1.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript -f ~/practice2_${eltex_pg2[K[K[K[K-gp[K[Kpg2-v16}_part1.log
+[?2004lScript started, output log file is '/home/eltex-pg2-v16/practice2_pg2-v16_part1.log'.
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh root@172.16.9.216creen -r 85552.pts-181.eltex-2025-summer top[K85552.pts-181.eltex-2025-summer [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psh root@172.16.9.216[Kssh root@172.16.9.216creen -r 85552.pts-181.eltex-2025-summer top[K[Kыскуут -кscreen top-ls[Kecho "export LANG=ru_RU.UTF8" >>~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscreen[K -lstop[1Pыскуут -кscreen -r top85552.pts-181.eltex-2025-summer [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psh root@172.16.9.216[Kssh-copy-id eltex-pg2-v16@root
+[?2004l/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/eltex-pg2-v16/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: ssh: Could not resolve hostname root: Name or service not known
+
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh-copy-id eltex-pg2-v16@root[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd root@172.16.9.216
+[?2004l/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/eltex-pg2-v16/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+root@172.16.9.216's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'root@172.16.9.216'"
+and check to make sure that only the key(s) you wanted were added.
+
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ cat `/[K[K~/.ssh?[K/*pub.pub
+[?2004lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDHzO+qo5lmlvB/iZ4a/mcUxNCW65mJ0/iE1Kbj6ZxndOVCQC8ngOX7BHkluqMfA37CDcyaYRE2ufb+Wd3o+pf33O8ZTv74tuzfObg/NNnxNGqPzImAcvawngmsH4MXRe02bEgy/8oXyaJZx5XzdjbQcWrT+AwzeE2fa8W4vuCjkSTWaaYUNoy2N7D3NEMSO6N8a6JD6VC/cXmkRri/6SSL4CBwCVHhK7MkYKQ1bOeGp6F5r/M1J8uOc7ZqNB4MYgJshvQB+SfUggmK6QMWkU7h1NAT7TxjlvR6Pckf1sY/XFC+iruSM1w/ojLaDxjn4A0Lo+RCBI3aMBRA9FKNAzky7l+96elil23Fwq2vOQKxH0SdlCLIJ4ffGfxSV0u6wY023htaDdfworPQjxwqBYXtZUyrHFuQ8R6+/aaJF7BL2uR/met5JbmohUfHW/GEh+wbHqfNhv1AnogA1W9nkqa4Hh5+GoGRmG9P3OIsbqmpRhjG2KnmnMnWdmGwJh6tYq0= eltex-pg2-v16@eltex-2025-autumn
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ ssh root@172.16.9.216
+[?2004lWelcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-55-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct 15 10:48:20 AM UTC 2025
+
+  System load:  0.06               Processes:              111
+  Usage of /:   37.8% of 14.66GB   Users logged in:        0
+  Memory usage: 5%                 IPv4 address for ens18: 172.16.9.216
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+Last login: Wed Oct 15 10:18:45 2025 from 172.16.8.4
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# cat ~/.ssh?[K/authorized_keys
+[?2004lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDHzO+qo5lmlvB/iZ4a/mcUxNCW65mJ0/iE1Kbj6ZxndOVCQC8ngOX7BHkluqMfA37CDcyaYRE2ufb+Wd3o+pf33O8ZTv74tuzfObg/NNnxNGqPzImAcvawngmsH4MXRe02bEgy/8oXyaJZx5XzdjbQcWrT+AwzeE2fa8W4vuCjkSTWaaYUNoy2N7D3NEMSO6N8a6JD6VC/cXmkRri/6SSL4CBwCVHhK7MkYKQ1bOeGp6F5r/M1J8uOc7ZqNB4MYgJshvQB+SfUggmK6QMWkU7h1NAT7TxjlvR6Pckf1sY/XFC+iruSM1w/ojLaDxjn4A0Lo+RCBI3aMBRA9FKNAzky7l+96elil23Fwq2vOQKxH0SdlCLIJ4ffGfxSV0u6wY023htaDdfworPQjxwqBYXtZUyrHFuQ8R6+/aaJF7BL2uR/met5JbmohUfHW/GEh+wbHqfNhv1AnogA1W9nkqa4Hh5+GoGRmG9P3OIsbqmpRhjG2KnmnMnWdmGwJh6tYq0= eltex-pg2-v16@eltex-2025-autumn
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# useradd -m -s /bin/bash user1
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# passwd user1
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# adduser user2
+[?2004linfo: Adding user `user2' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `user2' (1002) ...
+info: Adding new user `user2' (1002) with group `user2 (1002)' ...
+info: Creating home directory `/home/user2' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for user2
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `user2' to supplemental / extra groups `users' ...
+info: Adding user `user2' to group `users' ...
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# adduser user2[K3
+[?2004linfo: Adding user `user3' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `user3' (1003) ...
+info: Adding new user `user3' (1003) with group `user3 (1003)' ...
+info: Creating home directory `/home/user3' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for user3
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `user3' to supplemental / extra groups `users' ...
+info: Adding user `user3' to group `users' ...
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# man usermod -s /usr/sbin/nologin user3
+[?2004l[?1049h[22;0;0t[?1h=[4mUSERMOD[24m(8)                                    System Management Commands                                   [4mUSERMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       usermod - modify a user account[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1musermod [22m[[4moptions[24m] [4mLOGIN[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1musermod [22mcommand modifies the system account files.[m
+[m
+[1mOPTIONS[0m[m
+       The options which apply to the [1musermod [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--append[0m[m
+           Add the user to the supplementary group(s). Use only with the [1m-G [22moption.[m
+[m
+       [1m-b[22m, [1m--badname[0m[m
+           Allow names that do not conform to standards.[m
+[m
+       [1m-c[22m, [1m--comment [4m[22mCOMMENT[0m[m
+           update the comment field of the user in /etc/passwd, which is normally modified using the [1mchfn[22m(1) utility.[m
+[m
+       [1m-d[22m, [1m--home [4m[22mHOME_DIR[0m[m
+           The user's new login directory.[m
+[m
+           If the [1m-m [22moption is given, the contents of the current home directory will be moved to the new home[m
+           directory, which is created if it does not already exist. If the current home directory does not exist the[m
+[7m Manual page usermod(8) line 1 (press h for help or q to quit)[27m[K[K           new home directory will not be created.[m
+[7m Manual page usermod(8) line 2 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tNo manual entry for -s
+--Man-- next: nologin(8) [ view (return) | skip (Ctrl-D) | quit (Ctrl-C) ]
+
+[?1049h[22;0;0t[?1h=[4mNOLOGIN[24m(8)                                    System Management Commands                                   [4mNOLOGIN[24m(8)[m
+[m
+[1mNAME[0m[m
+       nologin - politely refuse a login[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mnologin[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mnologin [22mcommand displays a message that an account is not available and exits non-zero. It is intended as[m
+       a replacement shell field for accounts that have been disabled.[m
+[m
+       To disable all logins, investigate [1mnologin[22m(5).[m
+[m
+       If [1mSSH_ORIGINAL_COMMAND [22mis populated it will be logged.[m
+[m
+[1mSEE ALSO[0m[m
+       [1mlogin[22m(1), [1mnologin[22m(5).[m
+[m
+[1mHISTORY[0m[m
+       The [1mnologin [22mcommand appeared in BSD 4.4.[m
+[m
+shadow-utils 4.13                                     05/30/2024                                           [4mNOLOGIN[24m(8)[m
+[7m Manual page nologin(8) line 1/24 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tNo manual entry for user3
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# man usermod -s /usr/sbin/nologin user3[C[C[C[1P[1P[1P[1P
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# su -user3
+[?2004lTry 'su --help' for more information.
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# su -user3 user3
+[?2004lThis account is currently not available.
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# su - user3[1P user3[1Puser3
+[?2004lThis account is currently not available.
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# su user3 -c /bin/bash
+[?2004lThis account is currently not available.
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# [?2004l
+logout
+Connection to 172.16.9.216 closed.
+[?2004h]0;eltex-pg2-v16@eltex-2025-autumn: ~[01;32meltex-pg2-v16@eltex-2025-autumn[00m:[01;34m~[00m$ 

@@ -1,0 +1,30 @@
+Script started on 2025-10-15 10:29:26+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="98" LINES="30"]
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# ssh-keygen
+[?2004lGenerating public/private ed25519 key pair.
+Enter file in which to save the key (/root/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_ed25519
+Your public key has been saved in /root/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:Q27XMjqiXLJhj/ykGp9cCq1WHkCxX8IYh71P5CgWob4 root@eltex-practice2-pg2-v16
+The key's randomart image is:
++--[ED25519 256]--+
+|  +=.            |
+| .+*. .          |
+|..o.o=. .        |
+|. +.oooo   .     |
+| o o.o  S + .    |
+|  ..o .. + o     |
+| Eoo=.= o        |
+|  .X.# . .       |
+| .o.%.o          |
++----[SHA256]-----+
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# logout
+[?2004lbash: logout: not login shell: use `exit'
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# exit
+[?2004lexit
+
+Script done on 2025-10-15 10:32:52+00:00 [COMMAND_EXIT_CODE="1"]

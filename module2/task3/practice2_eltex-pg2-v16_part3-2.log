@@ -1,0 +1,84 @@
+Script started on 2025-10-21 08:20:17+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# gh auth login
+[?2004l7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> GitHub.com[0m
+[0;39m  GitHub Enterprise Server[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m[0;36m GitHub.com[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> HTTPS[0m
+[0;39m  SSH[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  HTTPS[0m
+[0;1;36m> SSH[0m
+7[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m[0;36m SSH[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mUpload your SSH public key to your GitHub account?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> /root/.ssh/AnnaUzh.pub[0m
+[0;39m  /root/.ssh/id_ed25519.pub[0m
+[0;39m  Skip[0m
+7[1A[0G[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mUpload your SSH public key to your GitHub account?[0m[0;36m /root/.ssh/AnnaUzh.pub[0m
+[0G[2K[0;1;92m? [0m[0;1;99mTitle for your SSH key: [0m[0;39m(GitHub CLI) [0m[?25l[?25l7[999;999f[6n8[?25h[6neltex-practiv[1D[0Kce2-pg2-c[1D[0Kv16[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1B[0G[1A[?25h[0G[2K[0;1;92m? [0m[0;1;99mTitle for your SSH key: [0m[0;36meltex-practice2-pg2-v16[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m[0;36m Login with a web browser[0m
+
+[0;33m![0m First copy your one-time code: [0;1;39m430F-A9C8[0m
+[0;1;39mPress Enter[0m to open github.com in your browser... 
+[0;31m![0m Failed opening a web browser at https://github.com/login/device
+  exec: "xdg-open,x-www-browser,www-browser,wslview": executable file not found in $PATH
+  Please try entering the URL in your browser manually
+[0;32m✓[0m Authentication complete.
+- gh config set -h github.com git_protocol ssh
+[0;32m✓[0m Configured git protocol
+[0;33m![0m Authentication credentials saved in plain text
+[0;32m✓[0m Uploaded the SSH key to your GitHub account: [0;1;39m/root/.ssh/AnnaUzh.pub[0m
+[0;32m✓[0m Logged in as [0;1;39mAnnaUzh[0m
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# gh auth setup-git --hostname github.com
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# gh auth sr[Ktatus
+[?2004l[0;1;39mgithub.com[0m
+  [0;32m✓[0m Logged in to github.com account [0;1;39mAnnaUzh[0m (/root/.config/gh/hosts.yml)
+  - Active account: [0;1;39mtrue[0m
+  - Git operations protocol: [0;1;39mssh[0m
+  - Token: [0;1;39mgho_************************************[0m
+  - Token scopes: [0;1;39m'admin:public_key', 'gist', 'read:org', 'repo'[0m
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# gh repo create --public eltex_practic[K[K[K[K[K[K[Kmodule1_practice1
+[?2004l[0;32m✓[0m Created repository AnnaUzh/eltex_module1_practice1 on GitHub
+  https://github.com/AnnaUzh/eltex_module1_practice1
+[?2004h]0;root@eltex-practice2-pg2-v16: ~root@eltex-practice2-pg2-v16:~# mkdir ~/eltex_module1_practice1 && cd ~/eltex_module1_practice1
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# [K]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# echo"# "#[C[Cscree[K[K[K[K[Kfirst practice in eltex" >> README.md
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# git init
+[?2004lInitialized empty Git repository in /root/eltex_module1_practice1/.git/
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# git add README.md 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# git commit -m "fit[Krst commit"
+[?2004l[main (root-commit) 2c15c93] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# git branch -M main
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# git remote add origin https://github.com/AnnaUzh/eltex_module1_p ractice1.git
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# git status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# git push -u origin main
+[?2004lEnumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 239 bytes | 239.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AnnaUzh/eltex_module1_practice1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# mkdir module1/task1
+[?2004lmkdir: cannot create directory ‘module1/task1’: No such file or directory
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# mkdir module1/task1-module1/task1pmodule1/task1 module1/task1
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# mkdir -p module1/task1[3Pmodule1/task1[K2
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# mkdir module1/task2[K3
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# scp eltex-pg2-v16@217.71.138.1:eltex-pg2pv16_part.log root@172.1 6.9.216:zeltex[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv16_part.log root@172.16.[1P9.216:[A]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v16_part.log root@172.16.9.216:[A]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[Celtex-pg2-v16_part.log
+[?2004lThe authenticity of host '172.16.9.216 (172.16.9.216)' can't be established.
+ED25519 key fingerprint is SHA256:YNVzj+RtetZfXv5XUn/CUjeEcaMD4eg3jy8EuGGIS+o.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? n
+Please type 'yes', 'no' or the fingerprint: no
+Host key verification failed.
+scp: Connection closed
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1# [?2004l
+exit
