@@ -1,3 +1,2 @@
-#first practice in eltex
-all eltex projects
+#all eltex projects
 .
