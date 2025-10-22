@@ -311,4 +311,46 @@ Fast-forward
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K3/practice2_eltex-pg2-v16_part3.log 
 [?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1_clone/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1_clone/eltex_module1_practice1# git add module2/task3/practice2_eltex-pg2-v16_part3.log [K[K[K[K[K-2.log 
 [?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1_clone/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1_clone/eltex_module1_practice1# git add module2/task3/practice2_eltex-pg2-v16_part3-2.log [K[K[K[K[K[K3.log 
-[?2004l
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1_clone/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1_clone/eltex_module1_practice1# git commit -m "[K[K[K[K[K[K[K[K[K[K[Kstatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   module2/task1/practice2_eltex-pg2-v16_part1.log[m
+	[32mnew file:   module2/task1/practice2_pg2-v16_part1.log[m
+	[32mnew file:   module2/task1/practice2_root_part1.log[m
+	[32mnew file:   module2/task2/practice2_eltex-pg2-v16_part2.log[m
+	[32mnew file:   module2/task3/practice2_eltex-pg2-v16_part3-2.log[m
+	[32mnew file:   module2/task3/practice2_eltex-pg2-v16_part3-3.log[m
+	[32mnew file:   module2/task3/practice2_eltex-pg2-v16_part3.log[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   module2/task3/practice2_eltex-pg2-v16_part3-3.log[m
+
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1_clone/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1_clone/eltex_module1_practice1# git commit -m "prac2"
+[?2004l[main 27c4872] prac2
+ 7 files changed, 7163 insertions(+)
+ create mode 100644 module2/task1/practice2_eltex-pg2-v16_part1.log
+ create mode 100644 module2/task1/practice2_pg2-v16_part1.log
+ create mode 100644 module2/task1/practice2_root_part1.log
+ create mode 100644 module2/task2/practice2_eltex-pg2-v16_part2.log
+ create mode 100644 module2/task3/practice2_eltex-pg2-v16_part3-2.log
+ create mode 100644 module2/task3/practice2_eltex-pg2-v16_part3-3.log
+ create mode 100644 module2/task3/practice2_eltex-pg2-v16_part3.log
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1_clone/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1_clone/eltex_module1_practice1# git push origin main
+[?2004lEnumerating objects: 14, done.
+Counting objects:   7% (1/14)Counting objects:  14% (2/14)Counting objects:  21% (3/14)Counting objects:  28% (4/14)Counting objects:  35% (5/14)Counting objects:  42% (6/14)Counting objects:  50% (7/14)Counting objects:  57% (8/14)Counting objects:  64% (9/14)Counting objects:  71% (10/14)Counting objects:  78% (11/14)Counting objects:  85% (12/14)Counting objects:  92% (13/14)Counting objects: 100% (14/14)Counting objects: 100% (14/14), done.
+Delta compression using up to 2 threads
+Compressing objects:   7% (1/13)Compressing objects:  15% (2/13)Compressing objects:  23% (3/13)Compressing objects:  30% (4/13)Compressing objects:  38% (5/13)Compressing objects:  46% (6/13)Compressing objects:  53% (7/13)Compressing objects:  61% (8/13)Compressing objects:  69% (9/13)Compressing objects:  76% (10/13)Compressing objects:  84% (11/13)Compressing objects:  92% (12/13)Compressing objects: 100% (13/13)Compressing objects: 100% (13/13), done.
+Writing objects:   7% (1/13)Writing objects:  15% (2/13)Writing objects:  23% (3/13)Writing objects:  30% (4/13)Writing objects:  38% (5/13)Writing objects:  46% (6/13)Writing objects:  61% (8/13)Writing objects:  69% (9/13)Writing objects:  76% (10/13)Writing objects:  84% (11/13)Writing objects:  92% (12/13)Writing objects: 100% (13/13)Writing objects: 100% (13/13), 93.63 KiB | 10.40 MiB/s, done.
+Total 13 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/AnnaUzh/eltex_module1_practice1.git
+   47e9707..27c4872  main -> main
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1_clone/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1_clone/eltex_module1_practice1# [?2004l
+exit
+There are stopped jobs.
+[?2004h]0;root@eltex-practice2-pg2-v16: ~/eltex_module1_practice1_clone/eltex_module1_practice1root@eltex-practice2-pg2-v16:~/eltex_module1_practice1_clone/eltex_module1_practice1# 
